@@ -89,6 +89,8 @@ svg { max-width:100%; }
 .resource-nav a { display:inline-flex;align-items:center;gap:9px;font-size:14px;font-weight:500;color:var(--blue);padding:8px 0;border-bottom:1px solid transparent;transition:color .2s,border-color .2s; }
 .resource-nav a[href]:hover { color:var(--cyan);border-bottom-color:var(--cyan); }
 .resource-nav a[aria-disabled="true"] { color:var(--muted);cursor:default; }
+.resource-nav .citation-link { white-space:nowrap; }
+.citation-icon { display:block;flex:none;width:16px;height:16px; }
 .resource-icon { flex:none;width:24px;height:24px; }
 .resource-icon--arxiv { display:flex;align-items:center;justify-content:center;overflow:hidden;width:24px;height:27px; }
 .resource-icon--arxiv img { flex:none;width:70px;max-width:none;height:auto; }
@@ -707,6 +709,7 @@ body:has(.figure-dialog[open]) { overflow:hidden; }
   .timeline-top{display:block}.model-legend{margin-top:15px}.replay-controls{grid-template-columns:132px 1fr 60px;gap:12px}.replay-controls select{grid-column:1/-1;width:132px}.research-live,.milestone-columns{grid-template-columns:1fr;gap:24px}.robot-outcomes,.games-outcomes{grid-template-columns:1fr}.games-outcomes>div:first-child{grid-column:auto}.citation-code{padding:20px;font-size:11px}
 }
 @media(min-width:701px) and (max-width:900px) {
+  .resource-nav{column-gap:20px}.resource-nav a{font-size:13px}
   .timeline-layout{grid-template-columns:1fr;gap:24px}
   .research-live{grid-template-columns:1fr 1fr;padding-left:0;border-left:0;gap:25px}
 }
