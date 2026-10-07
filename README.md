@@ -23,7 +23,7 @@
 
 - 本包使用相对资源路径，可从 `/TerminalHorizon/` 加载。
 - 不包含调试备份、旧版赛车素材、源任务文件夹或未公开的论文 PDF。
-- Environments、Trajectories 和 Model weights 目前均指向作者提供的 Hugging Face collection。
+- Environments、Trajectories 和 Model weights 分别指向 Hugging Face 上的 TerminalHorizon-Environment、TerminalHorizon-3K 和 TerminalHorizon-27B。
 - 论文入口仍为占位符。arXiv 发布后，修改 `project.js` 中的 `resources.paper`。
 - 同一文件的 `citation` 中可更新 `year`、`eprint`、`primaryClass` 和 `url`。BibTeX 和复制功能会自动采用新信息。
 - 后续更新网站时，上传更新过的文件并保持原有目录结构。保留仓库中不属于本包的其他文件。

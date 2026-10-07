@@ -1,14 +1,14 @@
 "use strict";
 
-// Title, author order, and collection URL verified against manuscript (35).
-// Replace the three collection URLs independently as repositories are released.
+// Title and author order verified against manuscript (35).
+// Resource URLs supplied by the author on 2026-10-07.
 const PROJECT_META = {
   title: "Scaling Agentic Data for Long-Horizon Terminal Intelligence",
   authors: ["Shun Zou", "Ziyu Ma", "Yi Zou", "Yong Wang", "Lin Chen", "Zehui Chen", "Guanghua Chen", "Xiangxiang Chu", "Feng Zhao"],
   resources: {
-    environments: "https://huggingface.co/collections/shunzou05/terminalhorizon",
-    trajectories: "https://huggingface.co/collections/shunzou05/terminalhorizon",
-    models: "https://huggingface.co/collections/shunzou05/terminalhorizon",
+    environments: "https://huggingface.co/datasets/shunzou05/TerminalHorizon-Environment",
+    trajectories: "https://huggingface.co/datasets/shunzou05/TerminalHorizon-3K",
+    models: "https://huggingface.co/shunzou05/TerminalHorizon-27B",
     paper: "",
   },
   citation: {key: "zou_terminalhorizon", year: "", eprint: "", archivePrefix: "", primaryClass: "", url: ""},
