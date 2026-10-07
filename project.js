@@ -4,7 +4,7 @@
 // Resource URLs supplied by the author on 2026-10-07.
 const PROJECT_META = {
   title: "Scaling Agentic Data for Long-Horizon Terminal Intelligence",
-  authors: ["Shun Zou", "Ziyu Ma", "Yi Zou", "Yong Wang", "Lin Chen", "Zehui Chen", "Guanghua Chen", "Xiangxiang Chu", "Feng Zhao"],
+  authors: ["Shun Zou", "Ziyu Ma", "Yi Zou", "Yong Wang", "Lin Chen", "Zehui Chen", "Guanhua Chen", "Xiangxiang Chu", "Feng Zhao"],
   resources: {
     environments: "https://huggingface.co/datasets/shunzou05/TerminalHorizon-Environment",
     trajectories: "https://huggingface.co/datasets/shunzou05/TerminalHorizon-3K",
