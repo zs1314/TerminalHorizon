@@ -75,10 +75,7 @@ svg { max-width:100%; }
 .hero-heading { position:relative; }
 .hero-mascot { position:absolute;width:76px;height:76px;visibility:hidden;user-select:none; }
 .hero-mascot.is-positioned { visibility:visible; }
-.miner-sprite { position:relative;z-index:1;width:100%;height:100%;background:url("assets/miner-sprite.png") 0 0 / 400% 200% no-repeat;transform:translate(var(--frame-x,0),var(--frame-y,0)); }
-.miner-light,.miner-effects { position:absolute;inset:0;width:100%;height:100%;pointer-events:none; }
-.miner-light { z-index:0;filter:blur(.7px); }
-.miner-effects { z-index:2; }
+.miner-scene { display:block;width:100%;height:100%;pointer-events:none; }
 .mascot-motion { position:absolute;z-index:3;right:0;bottom:-12px;display:grid;place-items:center;width:20px;height:20px;padding:0;border:1px solid #d5e3e5;border-radius:50%;background:#fcfbf8e8;color:#668993;opacity:0;transition:opacity .2s; }
 .hero-mascot:hover .mascot-motion,.mascot-motion:focus-visible { opacity:1; }
 .mascot-motion svg { width:11px;height:11px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round; }
