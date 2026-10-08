@@ -97,6 +97,7 @@ svg { max-width:100%; }
 .paper-affiliations sup { margin-right:4px; }
 .author-notes { display:flex;justify-content:center;flex-wrap:wrap;gap:4px 20px;margin-top:11px;font-size:11px;line-height:1.6;color:var(--muted); }
 .author-notes span { white-space:nowrap; }
+.author-notes .author-contribution { flex-basis:100%;white-space:normal;text-wrap:balance; }
 .author-notes sup { margin-right:4px;font-size:.85em; }
 .paper-byline + .resource-nav { margin-top:25px; }
 @media(forced-colors:active) {
