@@ -10,7 +10,7 @@
     <meta name="theme-color" content="#fcfbf8" />
     <title>Scaling Agentic Data for Long-Horizon Terminal Intelligence</title>
     <link rel="icon" href="data:," />
-    <link rel="stylesheet" href="site.css?v=20261008-descending-miner1" />
+    <link rel="stylesheet" href="site.css?v=20261009-editorial-refinement1" />
     <script src="mining-scene.js?v=20261008-descending-miner1" defer></script>
     <script src="project.js?v=20261007-author-name2" defer></script>
     <script src="data.js" defer></script>
@@ -22,7 +22,7 @@
     <script src="showcase.js?v=20261006-common-environments1" defer></script>
     <script src="explorers.js?v=20261003-environments2" defer></script>
     <script src="story.js?v=20261007-research-inputs1" defer></script>
-    <script src="app.js?v=20261007-title-icons-navigation1" defer></script>
+    <script src="app.js?v=20261009-editorial-refinement1" defer></script>
     <script src="horizon-minimal.js?v=20261007-contour-color1" defer></script>
     <script src="motion.js?v=20261007-family-accent1" defer></script>
   </head>
@@ -109,7 +109,7 @@
         id="motivation"
         aria-labelledby="motivation-title"
       >
-        <div class="section-heading editorial-heading">
+        <div class="section-heading editorial-heading spread-heading">
           <div>
             <h2 id="motivation-title">Motivation</h2>
           </div>
@@ -122,7 +122,7 @@
         <figure class="teaser-figure figure-surface">
           <button
             class="image-button"
-            data-figure="assets/teaser.webp"
+            data-figure="assets/teaser.webp" data-caption="Motivation"
             aria-label="Enlarge the TerminalHorizon motivation figure"
           >
             <img
@@ -137,7 +137,7 @@
 
       </section>
       <section class="section container" id="method">
-        <div class="section-heading">
+        <div class="section-heading spread-heading">
           <h2>Method</h2>
           <p>
             Two stages turn professional problems into executable tasks that
@@ -145,7 +145,7 @@
           </p>
         </div>
         <figure class="method-figure figure-surface">
-          <button class="image-button" data-figure="assets/pipline.webp" aria-label="Enlarge the TerminalHorizon method figure">
+          <button class="image-button" data-figure="assets/pipline.webp" data-caption="TerminalHorizon synthesis pipeline" aria-label="Enlarge the TerminalHorizon method figure">
             <img src="assets/pipline.webp" width="1800" height="1028" loading="lazy" alt="TerminalHorizon method: planning and deep research produce candidate tasks. Independent challenges reveal missing work and guide reconstruction. Progressive expansion adds professional requirements and interaction dependencies." />
           </button>
         </figure>
@@ -168,7 +168,7 @@
             <figure class="domain-overview-art figure-surface">
               <button
                 class="image-button"
-                data-figure="assets/professional-domain-coverage.png"
+                data-figure="assets/professional-domain-coverage.png" data-caption="Professional domain coverage"
                 aria-label="Enlarge the 25-domain illustration"
               >
                 <img
@@ -206,7 +206,7 @@
         aria-labelledby="patterns-title"
       >
         <div class="container section">
-          <div class="section-heading editorial-heading">
+          <div class="section-heading editorial-heading spread-heading">
             <div>
               <h2 id="patterns-title">Agentic behavioral patterns</h2>
             </div>
@@ -217,7 +217,7 @@
           <div class="pattern-overview">
             <figure class="taxonomy-figure figure-surface">
               <svg class="pattern-orbit" viewBox="0 0 1168 1092" aria-hidden="true"><g class="pattern-orbit-arcs"></g></svg>
-              <button class="image-button" data-figure="assets/behavioral-pattern-taxonomy.png" aria-label="Enlarge all 27 behavioral patterns">
+              <button class="image-button" data-figure="assets/behavioral-pattern-taxonomy.png" data-caption="Agentic behavioral patterns" aria-label="Enlarge all 27 behavioral patterns">
                 <img src="assets/behavioral-pattern-taxonomy.png" width="1168" height="1092" loading="lazy" alt="The paper's taxonomy of 27 behavioral patterns, organized into exploration, diagnosis, construction, verification, and coordination." />
               </button>
             </figure>
@@ -237,7 +237,7 @@
         id="tasks"
         aria-labelledby="tasks-title"
       >
-        <div class="section-heading">
+        <div class="section-heading spread-heading">
           <h2 id="tasks-title">Environment showcase</h2>
           <p>Build software, train models, and solve problems beyond code.</p>
         </div>
@@ -245,18 +245,18 @@
         <p class="source-note task-source">Six synthetic task environments. Previews use original requirements, source excerpts, and input data—not agent rollouts or full simulators.</p>
       </section>
       <section class="trajectory-section section container" id="trajectories" aria-labelledby="trajectories-title">
-        <div class="section-heading editorial-heading">
+        <div class="section-heading editorial-heading spread-heading">
           <div><h2 id="trajectories-title">Trajectory statistics</h2></div>
           <p>Longer interactions, with sustained chains of actions and terminal feedback.</p>
         </div>
         <figure class="data-overview-figure figure-surface">
-          <button class="image-button" data-figure="assets/data.svg" aria-label="Enlarge the paper's environment and trajectory analysis">
+          <button class="image-button" data-figure="assets/data.svg" data-caption="Environment and trajectory analysis" aria-label="Enlarge the paper's environment and trajectory analysis">
             <img src="assets/data.svg" width="1800" height="846" loading="lazy" alt="The paper's four-panel analysis: 25 professional domains, task material richness, interaction and feedback-chain lengths, and 27 behavioral patterns. Median feedback-chain length: 25 turns; average core patterns per trajectory: 8.6." />
           </button>
         </figure>
         <div class="trajectory-layout">
           <figure class="trajectory-figure figure-surface">
-            <button class="image-button" data-figure="assets/interaction-turns-web.svg" aria-label="Enlarge the interaction-length comparison">
+            <button class="image-button" data-figure="assets/interaction-turns-web.svg" data-caption="Interaction-length comparison" aria-label="Enlarge the interaction-length comparison">
               <img src="assets/interaction-turns-web.svg" width="960" height="500" loading="lazy" alt="Mean interaction turns with P50 and P90 for ten methods. TerminalHorizon: mean 52.82, P50 40, P90 98. The next-highest mean is CLI-Gym at 15.60." />
             </button>
           </figure>
@@ -282,13 +282,13 @@
           <div class="scaling-pair">
             <figure class="web-chart figure-surface">
               <figcaption><h3>Training-data scaling</h3><span>Terminal-Bench 2.1</span></figcaption>
-              <button class="image-button" data-figure="assets/training-scaling-web.svg?v=20261007-baseline-label1" aria-label="Enlarge the training-data scaling chart">
+              <button class="image-button" data-figure="assets/training-scaling-web.svg?v=20261007-baseline-label1" data-caption="Training-data scaling · Terminal-Bench 2.1" aria-label="Enlarge the training-data scaling chart">
                 <img src="assets/training-scaling-web.svg?v=20261007-baseline-label1" width="700" height="420" loading="lazy" alt="Performance at 0, 1,000, 2,000, and 2,852 training trajectories: 46.82, 57.30, 58.43, and 60.67 percent." />
               </button>
             </figure>
             <figure class="web-chart figure-surface">
               <figcaption><h3>Model-size comparison</h3><span>Terminal-Bench 2.1</span></figcaption>
-              <button class="image-button" data-figure="assets/model-size-web.svg?v=20261004-pastel-bars1" aria-label="Enlarge the model-size comparison">
+              <button class="image-button" data-figure="assets/model-size-web.svg?v=20261004-pastel-bars1" data-caption="Model-size comparison · Terminal-Bench 2.1" aria-label="Enlarge the model-size comparison">
                 <img src="assets/model-size-web.svg?v=20261004-pastel-bars1" width="700" height="420" loading="lazy" alt="Grouped bars comparing Base and TerminalHorizon mean pass@1 (%), with a zero baseline: 27B, 46.82 and 60.67; 35B-A3B, 39.70 and 52.81; 122B-A10B, 49.06 and 64.04." />
               </button>
             </figure>
@@ -345,9 +345,9 @@
     <dialog
       class="figure-dialog"
       id="figure-dialog"
-      aria-label="Expanded research figure"
+      aria-labelledby="figure-title"
     >
-      <div class="dialog-tools"><button class="dialog-close" aria-label="Close expanded figure">Close ×</button></div>
+      <div class="dialog-tools"><h2 class="dialog-title" id="figure-title">Research figure</h2><button class="dialog-close" aria-label="Close expanded figure">Close ×</button></div>
       <div class="dialog-media"><img alt="" /></div>
     </dialog>
   </body>

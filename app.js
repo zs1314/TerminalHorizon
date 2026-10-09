@@ -6,6 +6,9 @@ const chapters = chapterLinks.map(link => ({link, section:document.querySelector
 let chapterFrame = 0;
 function syncReadingPosition() {
   chapterFrame = 0;
+  const scrollRange = document.documentElement.scrollHeight - window.innerHeight;
+  document.documentElement.style.setProperty('--reading-progress',
+    scrollRange > 0 ? Math.max(0, Math.min(1, window.scrollY / scrollRange)) : 0);
   const readingLine = (document.querySelector('.site-header')?.getBoundingClientRect().height || 54) + 70;
   let active = null;
   for (const item of chapters) {
@@ -48,6 +51,10 @@ dialog.addEventListener("click", (event) => {
 document.addEventListener("click", (event) => {
   const trigger = event.target.closest("[data-figure]");
   if (!trigger) return;
+  dialog.querySelector('.dialog-title').textContent = trigger.dataset.caption ||
+    trigger.closest('figure')?.querySelector('figcaption h3')?.textContent ||
+    trigger.closest('#behavior-case-content')?.querySelector('.paper-case-heading h3')?.textContent ||
+    'Research figure';
   const img = dialog.querySelector("img");
   img.src = trigger.dataset.figure;
   img.alt =
