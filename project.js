@@ -1,7 +1,7 @@
 "use strict";
 
 // Title and author order verified against manuscript (35).
-// Resource URLs supplied by the author on 2026-10-07.
+// Resource URLs and citation supplied by the author.
 const PROJECT_META = {
   title: "Scaling Agentic Data for Long-Horizon Terminal Intelligence",
   authors: ["Shun Zou", "Ziyu Ma", "Yi Zou", "Yong Wang", "Lin Chen", "Zehui Chen", "Guanhua Chen", "Xiangxiang Chu", "Feng Zhao"],
@@ -9,9 +9,9 @@ const PROJECT_META = {
     environments: "https://huggingface.co/datasets/shunzou05/TerminalHorizon-Environment",
     trajectories: "https://huggingface.co/datasets/shunzou05/TerminalHorizon-3K",
     models: "https://huggingface.co/shunzou05/TerminalHorizon-27B",
-    paper: "",
+    paper: "https://arxiv.org/abs/2610.13166",
   },
-  citation: {key: "zou_terminalhorizon", year: "", eprint: "", archivePrefix: "", primaryClass: "", url: ""},
+  citation: {key: "zou2026scalingagenticdatalonghorizon", year: "2026", eprint: "2610.13166", archivePrefix: "arXiv", primaryClass: "cs.CL", url: "https://arxiv.org/abs/2610.13166"},
 };
 
 function buildBibTeX(meta = PROJECT_META) {
